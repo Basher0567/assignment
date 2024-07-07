@@ -10,8 +10,8 @@
             background-color: rgba(190,189,189);
         }
         .card{
-            width: 310px;
-            height: 460px;
+            width: 350px;
+            height: 550px;
             padding: 10px;
             margin: 20px;
             background-color: white;
@@ -23,11 +23,15 @@
             font-size: 30px;
             font-family: 'Times New Roman', Times, serif;
             color: black;
+            margin: 20px 0px 10px 0px;
+        
         }
         h4{
             font-size: 20px;
             font-family:'Times New Roman', Times, serif;
-            color:rgb(42, 38, 38);           
+            color:rgb(70, 67, 67);  
+            margin: 0px; 
+            opacity: 80%;        
 
         }
         .img-div img{
@@ -38,34 +42,49 @@
             border: 2px solid #5f5e5e11;
         }
         .bt1{
-            width: 120px;
+            width: 140px;
             height: 40px;
             background-color: white;
             color: black;
             border-radius: 4px;
-            margin-right: 4px;
+            margin-right: 5px;
         }
         .bt2{
-            width: 120px;
+            width: 140px;
             height: 40px;
             background-color: black;
             color: white;
             border-radius: 4px;
-            margin-left: 4px;
+            margin-left: 5px;
         }
         .icon{
             margin-top:10px;
         }
-        .row{
-          display: flex;
-          flex-direction: row;
-          justify-content:center;
-          margin-bottom: 10px;
+        .row1{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            color: black;
+            margin: 0px 30px 0px 30px;
+            opacity: 70%;
+        }
+        .row2{
+            display: flex;
+            justify-content: space-evenly;
+            font-size: 20px;
+            color: black;
+            font-weight:bold;
+            opacity: 80%;
+            margin-bottom: 20px;
+
         }
         p{
-            font-size: 15px;
+            font-size: 20px;
             color: black;
             text-align: center;
+            opacity: 70%;
+            padding: 10px;
+            margin: 20px 20px 30px 20px;
         }
     </style>
 </head>
@@ -79,14 +98,17 @@
             <h4>UX Designer</h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur velit animi unde accusantium minima vero.</p>
             <div class="row">
-                <div>
-                    <span><i class="fa-sharp fa-solid fa-phone"></i></span>
-                    <a href="#">01742633419</a>
+                <div class="row1">
+                    <div>Projects</div>
+                    <div>following</div>
+                    <div>followers</div>
                 </div>
-                <div>
-                    <span><i class="fa fa-envelope-open" aria-hidden="true"></i></span>
-                    <a href="#">admin@gmail.com</a>
+                <div class="row2">
+                    <div>18</div>
+                    <div>464</div>
+                    <div>852</div>
                 </div>
+               
             </div>
             <div>
                 <button class="bt1">Follow</button>
